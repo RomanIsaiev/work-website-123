@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monostep</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '1478875046262907');
+      fbq('track', 'PageView');
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <p class="short-text">curso online</p>
+        <img class="site-logo" src="./src/img/logo.svg" alt="logo" width="58" />
+        <p class="short-text">
+          início <span id="dateElement"></span>.<span id="monthElement"></span>
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="title">MonoStep: <span>Ganhos Imediatos</span></h1>
+          <p class="desc">
+            Como alcançar uma renda de <span>1.800€</span> por mês realizando
+            laminação de sobrancelhas ou os cílios em 30 minutos,
+            <span>sem experiência ou grandes investimentos</span>
+          </p>
+          <ul class="list">
+            <li class="list-item">
+              <p class="item-text">
+                Profissão simples, rendimento acima da média
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-text">Ganhos desde os primeiros dias</p>
+            </li>
+            <li class="list-item">
+              <p class="item-text">
+                Sem necessidade de experiência ou habilidades complexas
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-text">
+                Trabalhe de casa ou de qualquer lugar do mundo
+              </p>
+            </li>
+          </ul>
+          <a
+            class="btn"
+            href="https://go.hotmart.com/W100234302F?dp=1"
+            target="_blank"
+            rel="nofollow"
+            >Mais detalhes <br />
+            <span>DESCONTO DE 90%</span></a
+          >
+        </div>
+      </section>
+      <section class="bonuses">
+        <div class="container">
+          <h2 class="title">
+            Aproveite o melhor preço e receba <span>bônus exclusivos</span>
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-01-1x.png 1x,
+                    ./src/img/bonuses/bonus-01-2x.png 2x
+                  "
+                  width="152"
+                  height="auto" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-01-1x.png"
+                  alt="bonus image"
+                  width="152"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                <span>Guia:</span> “Como encontrar os primeiros clientes”
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-02-1x.png 1x,
+                    ./src/img/bonuses/bonus-02-2x.png 2x
+                  "
+                  width="152"
+                  height="auto" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-02-1x.png"
+                  alt="bonus image"
+                  width="152"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                <span>Checklist:</span> “Como tirar fotos perfeitas para o
+                Instagram em qualquer ambiente”
+              </p>
+            </li>
+          </ul>
+          <div id="countdown-one" class="countdown">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <div class="countdown-label minutes-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <div class="countdown-label seconds-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+              <div class="countdown-label milliseconds-label"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for-whom">
+        <div class="container">
+          <h2 class="title">Este curso é perfeito para você se:</h2>
+          <ul class="list">
+            <li class="list-item">
+              <div class="image-box">
+                <p class="image-text">
+                  Quer aprender uma nova profissão de forma fácil
+                </p>
+              </div>
+              <p class="item-text">
+                Fácil de começar, sem conhecimento avançado ou grandes custos
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="image-box">
+                <p class="image-text">Está procurando uma renda extra</p>
+              </div>
+              <p class="item-text">
+                Ganhe dinheiro enquanto trabalha ou estuda
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="image-box">
+                <p class="image-text">Deseja mudar de profissão</p>
+              </div>
+              <p class="item-text">
+                Aprenda uma profissão com alta demanda e retorno financeiro
+                elevado
+              </p>
+            </li>
+            <li class="list-item">
+              <div class="image-box">
+                <p class="image-text">Valoriza liberdade e independência</p>
+              </div>
+              <p class="item-text">
+                Trabalhe em horários flexíveis e de qualquer lugar do mundo
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="bg-wrapper">
+        <section class="why-ideal">
+          <div class="container">
+            <h2 class="title">Por que a laminação é a profissão ideal?</h2>
+            <ul class="list">
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/why-ideal/image-01-1x.png 1x,
+                      ./src/img/why-ideal/image-01-2x.png 2x
+                    "
+                    width="43"
+                    height="auto" />
+                  <img
+                    class="item-image"
+                    src="./src/img/why-ideal/image-01-1x.png"
+                    alt="ideal image"
+                    width="43"
+                    height="auto"
+                /></picture>
+                <p class="item-title">Rendimento elevado</p>
+                <p class="item-text">
+                  50€ por 30 minutos de trabalho ou 100€ em 40 minutos, ao
+                  realizar a laminação de sobrancelhas e cílios simultaneamente
+                </p>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/why-ideal/image-02-1x.png 1x,
+                      ./src/img/why-ideal/image-02-2x.png 2x
+                    "
+                    width="43"
+                    height="auto" />
+                  <img
+                    class="item-image"
+                    src="./src/img/why-ideal/image-02-1x.png"
+                    alt="ideal image"
+                    width="43"
+                    height="auto"
+                /></picture>
+                <p class="item-title">Retorno rápido do investimento</p>
+                <p class="item-text">
+                  Retorno do investimento em 2-3 procedimentos
+                </p>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/why-ideal/image-03-1x.png 1x,
+                      ./src/img/why-ideal/image-03-2x.png 2x
+                    "
+                    width="43"
+                    height="auto" />
+                  <img
+                    class="item-image"
+                    src="./src/img/why-ideal/image-03-1x.png"
+                    alt="ideal image"
+                    width="43"
+                    height="auto"
+                /></picture>
+                <p class="item-title">Mínimos riscos e início rápido</p>
+                <p class="item-text">
+                  Técnica simples, acessível para iniciantes sem experiência
+                </p>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/why-ideal/image-04-1x.png 1x,
+                      ./src/img/why-ideal/image-04-2x.png 2x
+                    "
+                    width="43"
+                    height="auto" />
+                  <img
+                    class="item-image"
+                    src="./src/img/why-ideal/image-04-1x.png"
+                    alt="ideal image"
+                    width="43"
+                    height="auto"
+                /></picture>
+                <p class="item-title">Demanda constante</p>
+                <p class="item-text">
+                  Um serviço procurado por mulheres de todas as idades e
+                  profissões durante todo o ano
+                </p>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/why-ideal/image-05-1x.png 1x,
+                      ./src/img/why-ideal/image-05-2x.png 2x
+                    "
+                    width="43"
+                    height="auto" />
+                  <img
+                    class="item-image"
+                    src="./src/img/why-ideal/image-05-1x.png"
+                    alt="ideal image"
+                    width="43"
+                    height="auto"
+                /></picture>
+                <p class="item-title">Liberdade e mobilidade</p>
+                <p class="item-text">
+                  Trabalhe em casa, em um salão ou onde preferir
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="about-author">
+          <h2 class="title">Quem é a autora e por que confiar nela?</h2>
+          <picture
+            ><source
+              srcset="
+                ./src/img/about-author/author-1x.png 1x,
+                ./src/img/about-author/author-2x.png 2x
+              "
+              width="320"
+              height="auto" />
+            <img
+              class="author-image"
+              src="./src/img/about-author/author-1x.png"
+              alt="author image"
+              width="320"
+              height="auto"
+          /></picture>
+          <div class="container">
+            <h3 class="author-name">Elena Krevsun</h3>
+            <p class="author-spec">
+              especialista internacional na área de beleza
+            </p>
+            <ul class="list">
+              <li class="list-item">
+                Mais de 10 anos de experiência no setor de beleza
+              </li>
+              <li class="list-item">
+                Formou mais de 2500 profissionais bem-sucedidos
+              </li>
+              <li class="list-item">Fundou uma academia na Europa do zero</li>
+              <li class="list-item">
+                Criadora de um método exclusivo pelo qual seus alunos ganham de
+                1.800€ a 10.000€ por mês
+              </li>
+            </ul>
+            <a
+              class="btn"
+              href="https://go.hotmart.com/W100234302F?dp=1"
+              target="_blank"
+              rel="nofollow"
+              >Quero participar <br />
+              <span>DESCONTO DE 90%</span></a
+            >
+          </div>
+        </section>
+      </div>
+      <section class="how-going section">
+        <div class="container">
+          <h2 class="title">Como funciona o curso?</h2>
+          <div class="list-wrapper">
+            <img
+              class="arrow left arrow-1"
+              src="./src/img/how-going/arrow.svg"
+              alt="arrow"
+            />
+            <img
+              class="arrow right arrow-2"
+              src="./src/img/how-going/arrow.svg"
+              alt="arrow"
+            />
+            <img
+              class="arrow left arrow-3"
+              src="./src/img/how-going/arrow.svg"
+              alt="arrow"
+            />
+            <img
+              class="arrow right arrow-4"
+              src="./src/img/how-going/arrow.svg"
+              alt="arrow"
+            />
+            <ul class="list">
+              <li class="list-item">
+                <div class="item-number-box"><p class="item-number">1</p></div>
+                <p class="item-text">
+                  Faça o pagamento e receba o acesso aos materiais por e-mail
+                </p>
+              </li>
+              <li class="list-item">
+                <div class="item-number-box"><p class="item-number">2</p></div>
+                <p class="item-text">Estude no seu ritmo</p>
+              </li>
+              <li class="list-item">
+                <div class="item-number-box"><p class="item-number">3</p></div>
+                <p class="item-text">Realize atividades práticas</p>
+              </li>
+              <li class="list-item">
+                <div class="item-number-box"><p class="item-number">4</p></div>
+                <p class="item-text">Baixe materiais bônus e instruções</p>
+              </li>
+              <li class="list-item">
+                <div class="item-number-box"><p class="item-number">5</p></div>
+                <p class="item-text">
+                  O acesso aos materiais é válido por 3 meses
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="you-learn section">
+        <div class="container">
+          <h2 class="title">O que você aprenderá no curso?</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-learn/image-01-1x.png 1x,
+                    ./src/img/you-learn/image-01-2x.png 2x
+                  "
+                  width="160"
+                  height="auto" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-learn/image-01-1x.png"
+                  alt="learn image"
+                  width="160"
+                  height="auto"
+              /></picture>
+              <p class="item-title">Cálculos específicos de ganhos</p>
+              <p class="item-text">
+                Saiba quanto exatamente você pode ganhar com laminação
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-learn/image-02-1x.png 1x,
+                    ./src/img/you-learn/image-02-2x.png 2x
+                  "
+                  width="160"
+                  height="auto" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-learn/image-02-1x.png"
+                  alt="learn image"
+                  width="160"
+                  height="auto"
+              /></picture>
+              <p class="item-title">
+                Detalhes sobre os benefícios da profissão
+              </p>
+              <p class="item-text">
+                Descubra como alcançar uma renda estável rapidamente, quem pode
+                se beneficiar dessa profissão e quais são as suas perspectivas
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-learn/image-03-1x.png 1x,
+                    ./src/img/you-learn/image-03-2x.png 2x
+                  "
+                  width="160"
+                  height="auto" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-learn/image-03-1x.png"
+                  alt="learn image"
+                  width="160"
+                  height="auto"
+              /></picture>
+              <p class="item-title">Plano passo a passo para começar</p>
+              <p class="item-text">
+                Aprenda como iniciar facilmente na profissão com investimentos
+                mínimos
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-learn/image-04-1x.png 1x,
+                    ./src/img/you-learn/image-04-2x.png 2x
+                  "
+                  width="160"
+                  height="auto" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-learn/image-04-1x.png"
+                  alt="learn image"
+                  width="160"
+                  height="auto"
+              /></picture>
+              <p class="item-title">Materiais extras</p>
+              <p class="item-text">
+                Checklists úteis, guias e materiais para acelerar o sucesso
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/you-learn/image-05-1x.png 1x,
+                    ./src/img/you-learn/image-05-2x.png 2x
+                  "
+                  width="160"
+                  height="auto" />
+                <img
+                  class="item-image"
+                  src="./src/img/you-learn/image-05-1x.png"
+                  alt="learn image"
+                  width="160"
+                  height="auto"
+              /></picture>
+              <p class="item-title">Ferramentas de promoção</p>
+              <p class="item-text">
+                Aprenda a atrair os primeiros clientes, tirar fotos incríveis
+                dos seus trabalhos e desenvolver sua marca pessoal
+              </p>
+            </li>
+          </ul>
+          <a
+            class="btn"
+            href="https://go.hotmart.com/W100234302F?dp=1"
+            target="_blank"
+            rel="nofollow"
+            >Quero o curso <br />
+            <span>DESCONTO DE 90%</span></a
+          >
+        </div>
+      </section>
+      <section class="program">
+        <picture
+          ><source
+            srcset="
+              ./src/img/program-photo-1x.jpg 1x,
+              ./src/img/program-photo-2x.jpg 2x
+            "
+            width="100%"
+            height="auto" />
+          <img
+            class="program-image"
+            src="./src/img/program-photo-1x.jpg"
+            alt="program image"
+            width="100%"
+            height="auto"
+        /></picture>
+        <div class="container">
+          <h2 class="title">Programa do curso:</h2>
+          <ul class="list">
+            <li class="list-item">
+              <p class="item-number">Aula 1</p>
+              <p class="item-text">
+                Por que a laminação é uma profissão lucrativa e promissora?
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 2</p>
+              <p class="item-text">Para quem esta profissão é ideal?</p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 3</p>
+              <p class="item-text">
+                Os 3 elementos-chave do sucesso na laminação: habilidade,
+                materiais e apresentação
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 4</p>
+              <p class="item-text">Por que os clientes escolhem a laminação?</p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 5</p>
+              <p class="item-text">
+                O que é o método MonoStep e quais oportunidades ele oferece?
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 6</p>
+              <p class="item-text">
+                Quanto realmente ganha um profissional? (cálculos detalhados)
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 7</p>
+              <p class="item-text">
+                Como começar rapidamente e onde encontrar os primeiros clientes?
+              </p>
+            </li>
+            <li class="list-item">
+              <p class="item-number">Aula 8</p>
+              <p class="item-text">
+                Como tirar fotos perfeitas dos seus trabalhos?
+              </p>
+            </li>
+          </ul>
+          <p class="price">
+            <span class="old-price">90€</span> 9€
+            <!-- <span class="iva">(+ IVA)</span> -->
+          </p>
+          <a
+            class="btn"
+            href="https://go.hotmart.com/W100234302F?dp=1"
+            target="_blank"
+            rel="nofollow"
+            >Comprar <br />
+            <span>DESCONTO DE 90%</span></a
+          >
+        </div>
+      </section>
+      <section class="bonuses">
+        <div class="container">
+          <h2 class="title">
+            Aproveite o melhor preço e receba <span>bônus exclusivos</span>
+          </h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-01-1x.png 1x,
+                    ./src/img/bonuses/bonus-01-2x.png 2x
+                  "
+                  width="152"
+                  height="auto" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-01-1x.png"
+                  alt="bonus image"
+                  width="152"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                <span>Guia:</span> “Como encontrar os primeiros clientes”
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonuses/bonus-02-1x.png 1x,
+                    ./src/img/bonuses/bonus-02-2x.png 2x
+                  "
+                  width="152"
+                  height="auto" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonuses/bonus-02-1x.png"
+                  alt="bonus image"
+                  width="152"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                <span>Checklist:</span> “Como tirar fotos perfeitas para o
+                Instagram em qualquer ambiente”
+              </p>
+            </li>
+          </ul>
+          <div id="countdown-two" class="countdown">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <div class="countdown-label minutes-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <div class="countdown-label seconds-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+              <div class="countdown-label milliseconds-label"></div>
+            </div>
+          </div>
+          <p class="garant-text">
+            O curso inclui garantia de reembolso incondicional por 14 dias
+          </p>
+        </div>
+      </section>
+      <section class="results section">
+        <div class="container">
+          <h2 class="title">Resultados após o curso:</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/results/image-01-1x.png 1x,
+                    ./src/img/results/image-01-2x.png 2x
+                  "
+                  width="43"
+                  height="auto" />
+                <img
+                  class="results-image"
+                  src="./src/img/results/image-01-1x.png"
+                  alt="result image"
+                  width="43"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Clareza sobre se a profissão de laminação é para você
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/results/image-02-1x.png 1x,
+                    ./src/img/results/image-02-2x.png 2x
+                  "
+                  width="43"
+                  height="auto" />
+                <img
+                  class="results-image"
+                  src="./src/img/results/image-02-1x.png"
+                  alt="result image"
+                  width="43"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Entendimento de quanto você ganhará e em quanto tempo
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/results/image-03-1x.png 1x,
+                    ./src/img/results/image-03-2x.png 2x
+                  "
+                  width="43"
+                  height="auto" />
+                <img
+                  class="results-image"
+                  src="./src/img/results/image-03-1x.png"
+                  alt="result image"
+                  width="43"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Um plano passo a passo para começar sem estresse e erros
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/results/image-04-1x.png 1x,
+                    ./src/img/results/image-04-2x.png 2x
+                  "
+                  width="43"
+                  height="auto" />
+                <img
+                  class="results-image"
+                  src="./src/img/results/image-04-1x.png"
+                  alt="result image"
+                  width="43"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Um conjunto completo de ferramentas para alcançar uma renda
+                estável rapidamente
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/results/image-05-1x.png 1x,
+                    ./src/img/results/image-05-2x.png 2x
+                  "
+                  width="43"
+                  height="auto" />
+                <img
+                  class="results-image"
+                  src="./src/img/results/image-05-1x.png"
+                  alt="result image"
+                  width="43"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Compreensão clara de por que essa profissão é lucrativa e
+                procurada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="title">Depoimentos dos alunos:</h2>
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-01-1x.png 1x,
+                      ./src/img/reviews/review-01-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-01-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-02-1x.png 1x,
+                      ./src/img/reviews/review-02-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-02-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/review-03-1x.png 1x,
+                      ./src/img/reviews/review-03-2x.png 2x
+                    "
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="review-image"
+                    src="./src/img/reviews/review-03-1x.png"
+                    alt="review"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <h2 class="title">Perguntas frequentes</h2>
+          <div class="questions-container">
+            <ul class="questions-list list">
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    O que vou aprender neste curso?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Como ganhar dinheiro com laminação de sobrancelhas e
+                      cílios, quem pode seguir essa profissão, quais são as
+                      perspectivas e quanto se pode ganhar
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Haverá aulas sobre a técnica do procedimento?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Não, o curso foca apenas em como ganhar dinheiro com a
+                      profissão e avaliar se é ideal para você.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Preciso de experiência na área de beleza?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Não, o curso é perfeito tanto para iniciantes quanto para
+                      quem já trabalha no setor.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Posso trabalhar de casa e combinar com outro emprego?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Sim, é uma profissão ideal para conciliar com outras
+                      atividades.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Quais são os investimentos iniciais?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Mínimos, obtém um retorno em apenas 2-3 procedimentos.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Preciso alugar um espaço para trabalhar?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Não, você pode trabalhar de casa, atender clientes a
+                      domicílio ou alugar um espaço apenas se desejar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <p class="price">
+            <span class="old-price">90€</span> 9€
+            <!-- <span class="iva">(+ IVA)</span> -->
+          </p>
+          <a
+            class="btn"
+            href="https://go.hotmart.com/W100234302F?dp=1"
+            target="_blank"
+            rel="nofollow"
+            >Comprar agora <br />
+            <span>DESCONTO DE 90%</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-list">
+          <li class="social-item">
+            <a
+              href="mailto:blb.academy.pt@gmail.com"
+              class="social-link"
+              target="_blank"
+              rel="nofollow"
+              ><img src="./src/img/mail.svg" alt="mail" width="36"
+            /></a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.instagram.com/blb.portugal"
+              class="social-link"
+              target="_blank"
+              rel="nofollow"
+              ><img src="./src/img/insta.svg" alt="insta" width="36"
+            /></a>
+          </li>
+        </ul>
+        <ul class="fop-list">
+          <li class="fop-item">Denis Nesterenko</li>
+          <li class="fop-item">NIF 302611770</li>
+        </ul>
+        <ul class="info-list">
+          <li class="list-item">
+            <p class="item-title">Morada</p>
+            <p class="item-text">
+              Urbanização Quinta do Outeiro Rua de São Filipe, Nº 14 3º Esq
+              2950-483 Palmela, Portugal 2. CAE Principal: 96040, CAE — 85590;
+              3. Isento de IVA ao abrigo do artigo 53.º do CIVA; 4. Portugal -
+              Lisbon - Parede Avenida das Acácias 53 Loja C +351 915 036 994
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="item-title">Termos e Condições</p>
+            <p class="item-text">
+              Todos os cursos e conteúdos oferecidos neste site destinam-se
+              exclusivamente a fins educacionais. O acesso é pessoal e
+              intransmissível. É proibida a cópia, distribuição ou revenda sem
+              autorização expressa por escrito
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="item-title">Política de Reembolso</p>
+            <p class="item-text">
+              De acordo com a legislação em vigor para produtos digitais, após o
+              início do acesso ao conteúdo do curso, não será possível efetuar
+              reembolso. Em casos de problemas técnicos ou acesso não concedido,
+              entre em contacto conosco através do e-mail indicado acima
+            </p>
+          </li>
+          <li class="list-item">
+            <p class="item-title">Política de Privacidade</p>
+            <p class="item-text">
+              Os dados pessoais fornecidos durante a compra ou inscrição são
+              tratados com total confidencialidade e utilizados apenas para fins
+              administrativos, fiscais e de comunicação sobre os cursos. Este
+              site cumpre o Regulamento Geral sobre a Proteção de Dados (RGPD)
+            </p>
+          </li>
+        </ul>
+        <a
+          class="site-creator"
+          href="https://www.instagram.com/lisabardadym"
+          target="_blank"
+          rel="nofollow"
+          >Desenvolvimento de site <span>lisa bardadym</span></a
+        >
+      </div>
+      <p class="footer-name">MonoStep</p>
+    </footer>
+    <script src="./src/js/changeDate.js" type="module"></script>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
+    <script src="./src/js/toggleFooter.js" type="module"></script>
+  </body>
+</html>
